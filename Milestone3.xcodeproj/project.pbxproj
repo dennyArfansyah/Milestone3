@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		3784FCCD2AA6E53600CCB176 /* Milestone3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784FCCC2AA6E53600CCB176 /* Milestone3App.swift */; };
-		3784FCCF2AA6E53600CCB176 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784FCCE2AA6E53600CCB176 /* ContentView.swift */; };
+		3784FCCF2AA6E53600CCB176 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784FCCE2AA6E53600CCB176 /* HomeView.swift */; };
 		3784FCD12AA6E53800CCB176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3784FCD02AA6E53800CCB176 /* Assets.xcassets */; };
 		3784FCD42AA6E53800CCB176 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3784FCD32AA6E53800CCB176 /* Preview Assets.xcassets */; };
+		3784FCDF2AA6E61100CCB176 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784FCDE2AA6E61100CCB176 /* User.swift */; };
+		3784FCE12AA6E6BF00CCB176 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784FCE02AA6E6BF00CCB176 /* Friend.swift */; };
+		3784FCE32AA6E6F300CCB176 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784FCE22AA6E6F300CCB176 /* Constant.swift */; };
+		3784FCE52AA6E72200CCB176 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784FCE42AA6E72200CCB176 /* Networking.swift */; };
+		3784FCE72AA6EBC700CCB176 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784FCE62AA6EBC700CCB176 /* Error.swift */; };
+		3784FCE92AA7010D00CCB176 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784FCE82AA7010D00CCB176 /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3784FCC92AA6E53600CCB176 /* Milestone3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Milestone3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3784FCCC2AA6E53600CCB176 /* Milestone3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milestone3App.swift; sourceTree = "<group>"; };
-		3784FCCE2AA6E53600CCB176 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3784FCCE2AA6E53600CCB176 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3784FCD02AA6E53800CCB176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3784FCD32AA6E53800CCB176 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3784FCDE2AA6E61100CCB176 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3784FCE02AA6E6BF00CCB176 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		3784FCE22AA6E6F300CCB176 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3784FCE42AA6E72200CCB176 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		3784FCE62AA6EBC700CCB176 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		3784FCE82AA7010D00CCB176 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,11 @@
 		3784FCCB2AA6E53600CCB176 /* Milestone3 */ = {
 			isa = PBXGroup;
 			children = (
+				3784FCDD2AA6E5A300CCB176 /* Constant */,
+				3784FCDC2AA6E59C00CCB176 /* Networking */,
+				3784FCDB2AA6E59200CCB176 /* View */,
+				3784FCDA2AA6E58B00CCB176 /* Model */,
 				3784FCCC2AA6E53600CCB176 /* Milestone3App.swift */,
-				3784FCCE2AA6E53600CCB176 /* ContentView.swift */,
 				3784FCD02AA6E53800CCB176 /* Assets.xcassets */,
 				3784FCD22AA6E53800CCB176 /* Preview Content */,
 			);
@@ -65,6 +80,41 @@
 				3784FCD32AA6E53800CCB176 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3784FCDA2AA6E58B00CCB176 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3784FCDE2AA6E61100CCB176 /* User.swift */,
+				3784FCE02AA6E6BF00CCB176 /* Friend.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3784FCDB2AA6E59200CCB176 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3784FCCE2AA6E53600CCB176 /* HomeView.swift */,
+				3784FCE82AA7010D00CCB176 /* UserView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3784FCDC2AA6E59C00CCB176 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3784FCE42AA6E72200CCB176 /* Networking.swift */,
+				3784FCE62AA6EBC700CCB176 /* Error.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3784FCDD2AA6E5A300CCB176 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				3784FCE22AA6E6F300CCB176 /* Constant.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +187,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3784FCCF2AA6E53600CCB176 /* ContentView.swift in Sources */,
+				3784FCCF2AA6E53600CCB176 /* HomeView.swift in Sources */,
 				3784FCCD2AA6E53600CCB176 /* Milestone3App.swift in Sources */,
+				3784FCE32AA6E6F300CCB176 /* Constant.swift in Sources */,
+				3784FCE92AA7010D00CCB176 /* UserView.swift in Sources */,
+				3784FCE52AA6E72200CCB176 /* Networking.swift in Sources */,
+				3784FCDF2AA6E61100CCB176 /* User.swift in Sources */,
+				3784FCE72AA6EBC700CCB176 /* Error.swift in Sources */,
+				3784FCE12AA6E6BF00CCB176 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
