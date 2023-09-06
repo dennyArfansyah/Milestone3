@@ -17,6 +17,7 @@
 		3784FCE52AA6E72200CCB176 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784FCE42AA6E72200CCB176 /* Networking.swift */; };
 		3784FCE72AA6EBC700CCB176 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784FCE62AA6EBC700CCB176 /* Error.swift */; };
 		3784FCE92AA7010D00CCB176 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784FCE82AA7010D00CCB176 /* UserView.swift */; };
+		3784FCEB2AA83ED900CCB176 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784FCEA2AA83ED900CCB176 /* SongView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		3784FCE42AA6E72200CCB176 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		3784FCE62AA6EBC700CCB176 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		3784FCE82AA7010D00CCB176 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		3784FCEA2AA83ED900CCB176 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				3784FCCE2AA6E53600CCB176 /* HomeView.swift */,
 				3784FCE82AA7010D00CCB176 /* UserView.swift */,
+				3784FCEA2AA83ED900CCB176 /* SongView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3784FCEB2AA83ED900CCB176 /* SongView.swift in Sources */,
 				3784FCCF2AA6E53600CCB176 /* HomeView.swift in Sources */,
 				3784FCCD2AA6E53600CCB176 /* Milestone3App.swift in Sources */,
 				3784FCE32AA6E6F300CCB176 /* Constant.swift in Sources */,

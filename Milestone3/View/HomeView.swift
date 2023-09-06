@@ -14,7 +14,7 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(users, id: \.id) { user in
+                ForEach(users, id: \.id) { user in 
                     NavigationLink {
                         UserView(user: user)
                     } label: {
